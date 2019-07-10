@@ -1,0 +1,23 @@
+.car{
+    border: 1px gray solid;
+    padding: 15px;
+}
+.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    font-style: italic;
+}
+.a{
+text-decoration-style: double;
+color: forestgreen;
+font-style: italic;
+}
+.b{
+color: royalblue;
+}
+.c{
+color: greenyellow;
+}
+.d{
+color: forestgreen;
+}

@@ -1,0 +1,12 @@
+<div class="car">
+<h2 class="head"><p>card works!</p></h2>
+<h4 class="a">{{obj.name}}</h4>
+<button *ngIf="isCollaps" (click)="toggleCollapse()">Expand</button>
+<button *ngIf="!isCollaps" (click)="toggleCollapse()">Collaps</button>
+<div *ngIf="!isCollaps">
+<p  class="b">Mob. no.</p>
+<p *ngFor="let Mnumber of obj.mob"> {{Mnumber}}</p>
+<h4 class="c">3</h4>
+<h4 class="d">4</h4>
+</div>
+</div>
